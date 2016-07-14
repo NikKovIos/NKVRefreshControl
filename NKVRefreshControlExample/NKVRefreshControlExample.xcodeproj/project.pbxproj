@@ -12,6 +12,7 @@
 		EBBB8AD01D37959200E99B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBB8ACF1D37959200E99B60 /* Assets.xcassets */; };
 		EBBB8AD31D37959200E99B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBB8AD11D37959200E99B60 /* LaunchScreen.storyboard */; };
 		EBBB8ADD1D37971800E99B60 /* NKVROOTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8ADC1D37971800E99B60 /* NKVROOTTableViewController.m */; };
+		EBBB8AE11D37995700E99B60 /* NKVRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8AE01D37995700E99B60 /* NKVRefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		EBBB8AD41D37959200E99B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBBB8ADB1D37971800E99B60 /* NKVROOTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKVROOTTableViewController.h; sourceTree = "<group>"; };
 		EBBB8ADC1D37971800E99B60 /* NKVROOTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKVROOTTableViewController.m; sourceTree = "<group>"; };
+		EBBB8ADF1D37995700E99B60 /* NKVRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKVRefreshControl.h; sourceTree = "<group>"; };
+		EBBB8AE01D37995700E99B60 /* NKVRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKVRefreshControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		EBBB8AC21D37959200E99B60 /* NKVRefreshControlExample */ = {
 			isa = PBXGroup;
 			children = (
+				EBBB8ADE1D3798FB00E99B60 /* NKVRefreshControl */,
 				EBBB8AD41D37959200E99B60 /* Info.plist */,
 				EBBB8AC61D37959200E99B60 /* AppDelegate.h */,
 				EBBB8AC71D37959200E99B60 /* AppDelegate.m */,
@@ -74,6 +78,16 @@
 				EBBB8AC41D37959200E99B60 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBBB8ADE1D3798FB00E99B60 /* NKVRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB8ADF1D37995700E99B60 /* NKVRefreshControl.h */,
+				EBBB8AE01D37995700E99B60 /* NKVRefreshControl.m */,
+			);
+			name = NKVRefreshControl;
+			path = ../../NKVRefreshControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBBB8ADD1D37971800E99B60 /* NKVROOTTableViewController.m in Sources */,
+				EBBB8AE11D37995700E99B60 /* NKVRefreshControl.m in Sources */,
 				EBBB8AC81D37959200E99B60 /* AppDelegate.m in Sources */,
 				EBBB8AC51D37959200E99B60 /* main.m in Sources */,
 			);
@@ -306,6 +321,7 @@
 				EBBB8AD91D37959200E99B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
