@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NKVRefreshControl.h"
 
-@interface NKVInfinityScroll : NSObject
+@interface NKVInfinityScroll : NSObject <NKVCustomActivityIndicatorProtocol>
 
 @end

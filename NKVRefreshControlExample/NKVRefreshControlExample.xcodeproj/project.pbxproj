@@ -89,7 +89,7 @@
 		EBBB8ADE1D3798FB00E99B60 /* NKVRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
-				EBBB8AE51D37A1AB00E99B60 /* Classes */,
+				EBBB8AE51D37A1AB00E99B60 /* Dont look here */,
 				EBBB8ADF1D37995700E99B60 /* NKVRefreshControl.h */,
 				EBBB8AE01D37995700E99B60 /* NKVRefreshControl.m */,
 			);
@@ -97,7 +97,7 @@
 			path = ../../NKVRefreshControl;
 			sourceTree = "<group>";
 		};
-		EBBB8AE51D37A1AB00E99B60 /* Classes */ = {
+		EBBB8AE51D37A1AB00E99B60 /* Dont look here */ = {
 			isa = PBXGroup;
 			children = (
 				EBBB8AE21D37A1A600E99B60 /* NKVPullToRefresh.h */,
@@ -105,7 +105,7 @@
 				EBBB8AE61D37A22500E99B60 /* NKVInfinityScroll.h */,
 				EBBB8AE71D37A22500E99B60 /* NKVInfinityScroll.m */,
 			);
-			name = Classes;
+			name = "Dont look here";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
