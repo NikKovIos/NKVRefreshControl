@@ -6,7 +6,10 @@
 //  Copyright © 2016 Nik Kov. All rights reserved.
 //
 
+#import "NKVInfinityScroll.h"
+#import "NKVPullToRefresh.h"
 #import <UIKit/UIKit.h>
+
 
 @interface NKVRefreshControl : UIView
 
@@ -25,7 +28,8 @@
  */
 + (NKVRefreshControl *)addBOTHRefreshControlsToScrollView:(UIScrollView *)scrollView delegate:(id)delegate pullToRefreshAction:(SEL)pullToRefreshAcrtion;
 
-
+@property (strong, nonatomic) NKVPullToRefresh *pullToRefresh;
+@property (strong, nonatomic) NKVInfinityScroll *infinityScroll;
 
 
 @end

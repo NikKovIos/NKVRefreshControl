@@ -13,6 +13,8 @@
 		EBBB8AD31D37959200E99B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBB8AD11D37959200E99B60 /* LaunchScreen.storyboard */; };
 		EBBB8ADD1D37971800E99B60 /* NKVROOTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8ADC1D37971800E99B60 /* NKVROOTTableViewController.m */; };
 		EBBB8AE11D37995700E99B60 /* NKVRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8AE01D37995700E99B60 /* NKVRefreshControl.m */; };
+		EBBB8AE41D37A1A600E99B60 /* NKVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8AE31D37A1A600E99B60 /* NKVPullToRefresh.m */; };
+		EBBB8AE81D37A22500E99B60 /* NKVInfinityScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8AE71D37A22500E99B60 /* NKVInfinityScroll.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,10 @@
 		EBBB8ADC1D37971800E99B60 /* NKVROOTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKVROOTTableViewController.m; sourceTree = "<group>"; };
 		EBBB8ADF1D37995700E99B60 /* NKVRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKVRefreshControl.h; sourceTree = "<group>"; };
 		EBBB8AE01D37995700E99B60 /* NKVRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKVRefreshControl.m; sourceTree = "<group>"; };
+		EBBB8AE21D37A1A600E99B60 /* NKVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKVPullToRefresh.h; sourceTree = "<group>"; };
+		EBBB8AE31D37A1A600E99B60 /* NKVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKVPullToRefresh.m; sourceTree = "<group>"; };
+		EBBB8AE61D37A22500E99B60 /* NKVInfinityScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKVInfinityScroll.h; sourceTree = "<group>"; };
+		EBBB8AE71D37A22500E99B60 /* NKVInfinityScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKVInfinityScroll.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +89,23 @@
 		EBBB8ADE1D3798FB00E99B60 /* NKVRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
+				EBBB8AE51D37A1AB00E99B60 /* Classes */,
 				EBBB8ADF1D37995700E99B60 /* NKVRefreshControl.h */,
 				EBBB8AE01D37995700E99B60 /* NKVRefreshControl.m */,
 			);
 			name = NKVRefreshControl;
 			path = ../../NKVRefreshControl;
+			sourceTree = "<group>";
+		};
+		EBBB8AE51D37A1AB00E99B60 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB8AE21D37A1A600E99B60 /* NKVPullToRefresh.h */,
+				EBBB8AE31D37A1A600E99B60 /* NKVPullToRefresh.m */,
+				EBBB8AE61D37A22500E99B60 /* NKVInfinityScroll.h */,
+				EBBB8AE71D37A22500E99B60 /* NKVInfinityScroll.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +197,9 @@
 			files = (
 				EBBB8ADD1D37971800E99B60 /* NKVROOTTableViewController.m in Sources */,
 				EBBB8AE11D37995700E99B60 /* NKVRefreshControl.m in Sources */,
+				EBBB8AE81D37A22500E99B60 /* NKVInfinityScroll.m in Sources */,
 				EBBB8AC81D37959200E99B60 /* AppDelegate.m in Sources */,
+				EBBB8AE41D37A1A600E99B60 /* NKVPullToRefresh.m in Sources */,
 				EBBB8AC51D37959200E99B60 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
