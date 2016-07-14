@@ -33,6 +33,7 @@
 //1
 //:TODO State of controls
 //:TODO UIView of natural activity indicators
+//:TODO https://github.com/Friend-LGA/LGRefreshView look at blocks
 //:TODO Implementing of own activity indicator
 //:TODO Adding customizeble activity indicator from pod
 //:TODO Property for stop action when it already in process
