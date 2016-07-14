@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBBB8AC51D37959200E99B60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8AC41D37959200E99B60 /* main.m */; };
+		EBBB8AC81D37959200E99B60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8AC71D37959200E99B60 /* AppDelegate.m */; };
+		EBBB8AD01D37959200E99B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBB8ACF1D37959200E99B60 /* Assets.xcassets */; };
+		EBBB8AD31D37959200E99B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBB8AD11D37959200E99B60 /* LaunchScreen.storyboard */; };
+		EBBB8ADD1D37971800E99B60 /* NKVROOTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBB8ADC1D37971800E99B60 /* NKVROOTTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBBB8AC01D37959100E99B60 /* NKVRefreshControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKVRefreshControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBB8AC41D37959200E99B60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBBB8AC61D37959200E99B60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBBB8AC71D37959200E99B60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBBB8ACF1D37959200E99B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBBB8AD21D37959200E99B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBBB8AD41D37959200E99B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBB8ADB1D37971800E99B60 /* NKVROOTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKVROOTTableViewController.h; sourceTree = "<group>"; };
+		EBBB8ADC1D37971800E99B60 /* NKVROOTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKVROOTTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBBB8ABD1D37959100E99B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBBB8AB71D37959100E99B60 = {
+			isa = PBXGroup;
+			children = (
+				EBBB8AC21D37959200E99B60 /* NKVRefreshControlExample */,
+				EBBB8AC11D37959100E99B60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBBB8AC11D37959100E99B60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB8AC01D37959100E99B60 /* NKVRefreshControlExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBBB8AC21D37959200E99B60 /* NKVRefreshControlExample */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB8AD41D37959200E99B60 /* Info.plist */,
+				EBBB8AC61D37959200E99B60 /* AppDelegate.h */,
+				EBBB8AC71D37959200E99B60 /* AppDelegate.m */,
+				EBBB8ADB1D37971800E99B60 /* NKVROOTTableViewController.h */,
+				EBBB8ADC1D37971800E99B60 /* NKVROOTTableViewController.m */,
+				EBBB8AC31D37959200E99B60 /* Supporting Files */,
+			);
+			path = NKVRefreshControlExample;
+			sourceTree = "<group>";
+		};
+		EBBB8AC31D37959200E99B60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB8ACF1D37959200E99B60 /* Assets.xcassets */,
+				EBBB8AD11D37959200E99B60 /* LaunchScreen.storyboard */,
+				EBBB8AC41D37959200E99B60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBBB8ABF1D37959100E99B60 /* NKVRefreshControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBB8AD71D37959200E99B60 /* Build configuration list for PBXNativeTarget "NKVRefreshControlExample" */;
+			buildPhases = (
+				EBBB8ABC1D37959100E99B60 /* Sources */,
+				EBBB8ABD1D37959100E99B60 /* Frameworks */,
+				EBBB8ADA1D37960500E99B60 /* Auto Increase Build Number */,
+				EBBB8ABE1D37959100E99B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKVRefreshControlExample;
+			productName = NKVRefreshControlExample;
+			productReference = EBBB8AC01D37959100E99B60 /* NKVRefreshControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBBB8AB81D37959100E99B60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nik Kov";
+				TargetAttributes = {
+					EBBB8ABF1D37959100E99B60 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EBBB8ABB1D37959100E99B60 /* Build configuration list for PBXProject "NKVRefreshControlExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBBB8AB71D37959100E99B60;
+			productRefGroup = EBBB8AC11D37959100E99B60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBBB8ABF1D37959100E99B60 /* NKVRefreshControlExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBBB8ABE1D37959100E99B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBB8AD31D37959200E99B60 /* LaunchScreen.storyboard in Resources */,
+				EBBB8AD01D37959200E99B60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBBB8ADA1D37960500E99B60 /* Auto Increase Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Auto Increase Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBBB8ABC1D37959100E99B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBB8ADD1D37971800E99B60 /* NKVROOTTableViewController.m in Sources */,
+				EBBB8AC81D37959200E99B60 /* AppDelegate.m in Sources */,
+				EBBB8AC51D37959200E99B60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBBB8AD11D37959200E99B60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBB8AD21D37959200E99B60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBBB8AD51D37959200E99B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBBB8AD61D37959200E99B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBBB8AD81D37959200E99B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NKVRefreshControlExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nik-Kov.ios.NKVRefreshControlExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBBB8AD91D37959200E99B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NKVRefreshControlExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nik-Kov.ios.NKVRefreshControlExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBBB8ABB1D37959100E99B60 /* Build configuration list for PBXProject "NKVRefreshControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBB8AD51D37959200E99B60 /* Debug */,
+				EBBB8AD61D37959200E99B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBB8AD71D37959200E99B60 /* Build configuration list for PBXNativeTarget "NKVRefreshControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBB8AD81D37959200E99B60 /* Debug */,
+				EBBB8AD91D37959200E99B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBBB8AB81D37959100E99B60 /* Project object */;
+}
